@@ -1,4 +1,4 @@
-from animais import Cavalo
+from animais import Cavalo, Gato, Jacare
 
-c1 = Cavalo(nome, cor_pelo, idade, tipo_pata, cor_crina)
-c1.galopar()
+g1 = Jacare('jaca', 'preta', 40, 50)
+print(g1.botar_ovo())
